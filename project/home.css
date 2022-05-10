@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ .header{
+
+min-height: 100vh;
+width:100%;
+background-image: linear-gradient(rgba(0, 0, 0, 0.161),rgba(0, 0, 0, 0.396)),url(images/3.jpg);
+background-position: center;
+background-size:cover;
+position:relative;
+}
+
+
+/*.......................navigation bar............................*/
+
+nav{
+
+display:flex;
+padding: 2% 1%;
+justify-content:space-between ;
+align-items: center;    
+}
+
+
+.nav_links{
+
+    flex: 1;
+    text-align: right;
+}
+
+.nav_links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.nav_links ul li a{
+ 
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav_links ul li::after{
+
+    content:'' ;
+    width: 0%;
+    height: 5px;
+    background: rgb(0, 242, 255);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+
+.nav_links ul li:hover::after{
+
+    width: 100%;
+
+}
+ .text_box{
+
+width: 100%;
+color:white;
+position: absolute;
+top: 40%;
+bottom: 20%;
+text-align:center;
+
+}
+
+.text_box h1{
+
+    font-size: 50px;
+    color:whitesmoke;
+}
+
+.text_box p{
+    
+   margin: 20px 0 20px; 
+   font-size: 40px;
+   color:#d0f518;   
+}
+
+.text_box p a{
+
+    color: #FF8C00;
+}
+
+
+
+/*..........................................A little Bit about me...........................................*/
+
+
+
+
+.writting p{
+
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    flex-basis:10px ;
+    background: whitesmoke;
+    border-radius: 1px;
+    margin-bottom: 10%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+
+.me{
+
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(8, 7, 7, 0.741),rgba(0, 0, 0, 0.525)),url(images/4.jpg);
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    
+}
+    
+.me_box{
+
+text-align: center;
+
+}
+
+div .me_box_1 h1{
+
+    font-size: 50px;
+    color:rgb(246, 235, 244);
+
+}
+
+   div .me_box_1{
+
+font-size: 33px;
+
+   }
+
+   .me_box_1 p{
+
+    color: rgb(12, 218, 98);
+    font-size: 30px;
+   }
+   .me_box a{
+
+    margin: 10px 0 5px;
+    font-size: 20px;
+    color:rgb(253, 248, 248); 
+}
+
+  /* .................................. Education...........................*/
+
+
+
+  
+.education{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.253),rgba(8, 7, 7, 0.459)),url(images/d1.jpg);
+    background-position: center;
+    background-size:cover;
+    position:relative;
+
+}
+
+.row{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.education h1{
+
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    flex-basis:10px ;
+    background: rgb(230, 3, 3);
+    border-radius: 1px;
+    margin-bottom: 10%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    
+}
+
+.education_col{  
+
+    flex-basis: 30%;
+    background:rgb(236, 231, 223);
+    border-radius: 50px;
+    margin-bottom: 10%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.education_col:hover{
+    
+    border: 5px  rgb(205, 17, 168);
+    background: rgb(205, 22, 141);
+    transition: 0.5s;
+    cursor: pointer;
+    position: relative;
+   
+}
+
+h3{
+text-align: center;
+font-weight: 600;
+margin: 10px 0;
+font-size: 50px;
+color: black;
+
+}
+
+
+p{
+
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+    color:rgb(0, 0, 0);
+
+}
